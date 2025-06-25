@@ -1,0 +1,71 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* კონტეინერი */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ჰედერი */
+header {
+  background-color: #4CAF50; /* მწვანე ფერი */
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* ღილაკები */
+button, .btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #45a049;
+}
+
+/* მთავარი სექცია */
+.main-section {
+  padding: 40px 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ტექსტის სტილი */
+h1, h2, h3 {
+  color: #222;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+/* რეაქტიული დიზაინი */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  header {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
